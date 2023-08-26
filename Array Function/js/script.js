@@ -56,20 +56,3 @@ const alumnos = [
   filtrarPorMateria()
   
   
-  
-  
-  
-  /*function generateKoders(){
-      let newKoders = [];
-  
-      for (let index = 0; index < koders.length; index++) {
-          let infoKoder ={      
-          nombre :koders[index][0],
-          apellido :koders[index][1],
-          id: index+1
-          };
-          newKoders.push(newKoders);
-      }
-      console.log(newKoders)
-      return newKoders;
-  }*/
