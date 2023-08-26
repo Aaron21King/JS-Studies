@@ -44,7 +44,7 @@ const alumnos = [
   -hacer una comparacion de signature con la materia que pide usuario
   -si es igual imprimir en consola*/
   
-  function filtrarPorMateria() {
+  function filtrarMateria() {
       let materia = prompt('Ingrese una materia');
       for (let index = 0; index < alumnos.length; index++) {
           if(materia=== alumnos[index].signature){
@@ -53,6 +53,6 @@ const alumnos = [
           
       }
   };
-  filtrarPorMateria()
+  filtrarMateria()
   
   
