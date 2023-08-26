@@ -11,7 +11,7 @@ output:
 /*input: "Freddy";
 output: ["Js", "HTML", "React"];*/
 
-const generacion18 = [
+const alumnos = [
     {
       signature: "Js",
       koders: ["Aaron", "Freddy"],
@@ -40,15 +40,15 @@ const generacion18 = [
   ];
   
   /*-Crear una funcion que hara el filtrado y que reciba la materia
-  -iterar el arreglo de generacion 18
+  -iterar el arreglo de alumnos
   -hacer una comparacion de signature con la materia que pide usuario
   -si es igual imprimir en consola*/
   
   function filtrarPorMateria() {
       let materia = prompt('Ingrese una materia');
-      for (let index = 0; index < generacion18.length; index++) {
-          if(materia=== generacion18[index].signature){
-          console.log(generacion18[index])
+      for (let index = 0; index < alumnos.length; index++) {
+          if(materia=== alumnos[index].signature){
+          console.log(alumnos[index])
           }
           
       }
