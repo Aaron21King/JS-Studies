@@ -77,7 +77,7 @@ const mentorsArray = [
                 score:9
             }
         ],
-        promedio: 6
+        promedio: 9
     },
     {
         name:"Jose Enciso",
@@ -99,7 +99,7 @@ const mentorsArray = [
                 score:10
             }
         ],
-        promedio : 5
+        promedio : 9
     },
     {
       name:"Josue Enciso",
@@ -118,17 +118,17 @@ const mentorsArray = [
           },
           {
               signature:"ReactJS",
-              score:10
+              score:7
           }
       ],
-      promedio: 10,
+      promedio: 8,
   },
   {
     name:"Javier Guzman",
     scores:[
         {
             signature:"HTML",
-            score:8
+            score:10
         },
         {
             signature:"CSS",
