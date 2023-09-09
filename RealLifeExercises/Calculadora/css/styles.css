@@ -23,7 +23,6 @@ h1 {
     margin-bottom: 10px;
 }
 
-/* Estilos de la pantalla de la calculadora */
 #display {
     width: 100%;
     padding: 10px;
@@ -33,7 +32,6 @@ h1 {
     margin-bottom: 10px;
 }
 
-/* Estilos de los botones */
 .buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
