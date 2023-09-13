@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Convertidor de Longitud</title>
+</head>
+<body>
+    <h1>Convertidor de Longitud</h1>
+    <label for="longitudMetros">Ingrese una longitud en metros:</label>
+    <input type="number" id="longitudMetros">
+    
+    <label for="unidadDestino">Seleccione la unidad de destino:</label>
+    <select id="unidadDestino">
+        <option value="centímetros">Centímetros</option>
+        <option value="pies">Pies</option>
+        <option value="pulgadas">Pulgadas</option>
+    </select>
+    
+    <button onclick="convertirLongitud()">Convertir</button>
+    
+    <p id="resultado"></p>
+    
+    <script src="../ConvertidorLongitud/js/script.js"></script>
+</body>
+</html>
