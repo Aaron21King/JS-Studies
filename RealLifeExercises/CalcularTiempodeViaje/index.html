@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Tiempo de Viaje</title>
+</head>
+<body>
+    <h1>Calculadora de Tiempo de Viaje</h1>
+    
+    <label for="distancia">Distancia (km):</label>
+    <input type="number" id="distancia" step="0.01">
+    
+    <label for="velocidad">Velocidad (km/h):</label>
+    <input type="number" id="velocidad" step="0.01">
+    
+    <label for="unidad">Unidad de Velocidad:</label>
+    <select id="unidad">
+        <option value="km/h">km/h</option>
+        <option value="mph">mph</option>
+    </select>
+    
+    <button id="calcular">Calcular Tiempo de Viaje</button>
+    
+    <p id="resultado"></p>
+    
+    <script src="../CalcularTiempodeViaje/js/script.js"></script>
+</body>
+</html>
