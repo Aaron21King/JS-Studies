@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora de Préstamos</title>
+    <link rel="stylesheet" type="text/css" href="../Prestamos/css/styles.css">
+</head>
+<body>
+    <h1>Calculadora de Préstamos</h1>
+    <label for="montoPrestamo">Monto del Préstamo (en dólares):</label>
+    <input type="number" id="montoPrestamo"><br>
+    <label for="tasaInteres">Tasa de Interés Anual (%):</label>
+    <input type="number" id="tasaInteres" step="0.01"><br>
+    <label for="plazoAnos">Plazo del Préstamo (en años):</label>
+    <input type="number" id="plazoAnos"><br>
+    <button id="calcularBtn">Calcular Pagos Mensuales</button><br>
+    <p>Pagos Mensuales: $<span id="pagosMensuales">0.00</span></p>
+
+    <script src="../Prestamos/js/script.js"></script>
+</body>
+</html>
