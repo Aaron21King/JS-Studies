@@ -8,16 +8,16 @@ let nivelFelicidad = 50;
 
 function actualizarEstado() {
   if (nivelHambre > 70 && nivelFelicidad > 70) {
-    imagenMascota.src = "happy.png";
+    imagenMascota.src = "../happy.jpg";
     estadoMascota.textContent = "¡Soy una mascota feliz!";
   } else if (nivelHambre > 70) {
-    imagenMascota.src = "hungry.png";
+    imagenMascota.src = "../hungry.jpg";
     estadoMascota.textContent = "Tengo hambre. ¡Aliméntame!";
   } else if (nivelFelicidad > 70) {
-    imagenMascota.src = "happy.png";
+    imagenMascota.src = "../happy.jpg";
     estadoMascota.textContent = "Estoy contento. ¿Quieres jugar más?";
   } else {
-    imagenMascota.src = "neutral.png";
+    imagenMascota.src = "../neutral.jpg";
     estadoMascota.textContent = "Estoy bien. Puedes alimentarme o jugar conmigo.";
   }
 }
